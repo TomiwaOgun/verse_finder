@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Verse Finder",
+    "version": "1.0",
+    "description": "A Chrome extension for finding the right Bible verse for the right situation. Icon by Free Preloaders on freeicons.io",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+        "host_permissions": [
+        "https://api.openai.com/*",
+        "https://www.blueletterbible.org/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/bibleIcon-16.png",
+        "32": "icons/bibleIcon-32.png"
+        
+      }
+    },
+    "options_page": "options.html",
+    "icons": {
+        "16": "icons/bibleIcon-16.png",
+        "32": "icons/bibleIcon-32.png"
+    }
+  }
